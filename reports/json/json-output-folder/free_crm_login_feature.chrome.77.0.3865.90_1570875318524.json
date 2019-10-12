@@ -1,0 +1,68 @@
+[
+  {
+    "keyword": "Feature",
+    "name": "Free_CRM_Login Feature",
+    "line": 1,
+    "id": "free_crm_login-feature",
+    "tags": [],
+    "uri": "features\\login.feature",
+    "elements": [
+      {
+        "id": "free_crm_login-feature;free-crm-login-test-scenario",
+        "keyword": "Scenario",
+        "line": 3,
+        "name": "Free CRM Login Test Scenario",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 4,
+            "name": "user is available on login page",
+            "match": {
+              "location": "typescript\\stepdefinitions\\GeneralSteps.js:16"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 11000000
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "match": {
+              "location": "typescript\\support\\hooks.js:19"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 3000000
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "match": {
+              "location": "node_modules\\protractor-cucumber-framework\\lib\\resultsCapturer.js:26"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 4000000
+            }
+          }
+        ]
+      }
+    ],
+    "metadata": {
+      "browser": {
+        "name": "chrome",
+        "version": "77.0.3865.90"
+      },
+      "device": "",
+      "platform": {
+        "name": "",
+        "version": ""
+      }
+    }
+  }
+]
